@@ -1,0 +1,15 @@
+---
+AWSTemplateFormatVersion: 2010-09-09
+Description: This is yet another test
+Parameters:
+  Test:
+    Type: String
+Resources:
+  MyEC2:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: t2.micro
+  Test:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: t2.micro
